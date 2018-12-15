@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('../fonts/PoppinsSemiBold.eot');
+    src: url('../fonts/PoppinsSemiBold.eot') format('embedded-opentype'),
+    url('../fonts/PoppinsSemiBold.woff2') format('woff2'),
+    url('../fonts/PoppinsSemiBold.woff') format('woff'),
+    url('../fonts/PoppinsSemiBold.ttf') format('truetype'),
+    url('../fonts/PoppinsSemiBold.svg#PoppinsSemiBold') format('svg');
+}
+@font-face {
+    font-family: 'PoppinsLight';
+    src: url('../fonts/PoppinsLight.eot');
+    src: url('../fonts/PoppinsLight.eot') format('embedded-opentype'),
+    url('../fonts/PoppinsLight.woff2') format('woff2'),
+    url('../fonts/PoppinsLight.woff') format('woff'),
+    url('../fonts/PoppinsLight.ttf') format('truetype'),
+    url('../fonts/PoppinsLight.svg#PoppinsLight') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+    outline: none
+}
+.ui-accordion .ui-accordion-header:before {
+display: inline-block;
+    content: "· ";
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled{
+    font-family: 'PoppinsSemiBold';
+}
+.ui-helper-reset p{
+    font-family: 'PoppinsLight';
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1185px;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 240px;
+}
+div.flower{
+    max-width: 945px;
+    margin: auto;
+    padding-top: 100px;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    background-image: url("../images/strelka2_03.png");
+    width: 27px;
+    height: 16px;
+    background-position: top left;
+    float: right;
+    margin-top: 0;
+    transform: rotate(0deg);
+}
+.ui-accordion .ui-accordion-header{
+    padding-top: 14px;
+    padding-bottom: 20px;
+    margin-bottom: 3px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: none;
+    color: black;
+
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
+    margin-top: -3px;
+}
+.ui-icon, .ui-widget-content .ui-icon{
+    background-image: url("../images/strelka2_03.png");
+    width: 27px;
+    height: 16px;
+    background-position: top left;
+    float: right;
+    margin-top: 0;
+    transform: rotate(270deg);
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    background-color: #fce7f2;
+    color: #860da6;
+}
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon{
+    background-image: url("../images/strelka2_03.png");
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-widget-content {
+    background-color: #fef5fa;
+    border: none;
+    border-radius: inherit;
+
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: none;
+    border-radius: inherit;
+
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em 1.3em;
+}
+.ui-accordion-header .ui-corner-top .ui-state-default .ui-accordion-icons .ui-accordion-header-collapsed .ui-corner-all{
+    /*font-family:  'Poppins 600', sans-serif;;*/
+}
+/** {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*font-size: inherit;*/
+    /*color: inherit;*/
+    /*-webkit-font-smoothing: antialiased;*/
+/*}*/
+/*body{*/
+    /*padding-top: 100px;*/
+/*}*/
+/*.container{*/
+    /*max-width: 1185px;*/
+    /*margin: auto;*/
+/*}*/
+/*.ui-state-active .ui-icon, .ui-button:active .ui-icon{*/
+   /*background-image: url("../images/strelka2_03.png");*/
+    /*width: 27px;*/
+    /*height: 16px;*/
+    /*background-position: top left;*/
+    /*float: right;*/
+    /*margin-top: 0;*/
+    /*transform: rotate(0deg);*/
+/*}*/
+/*.ui-accordion .ui-accordion-header{*/
+    /*padding-top: 33px;*/
+    /*padding-bottom: 28px;*/
+/*}*/
+/*.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{*/
+    /*border: none;*/
+    /*color: black;*/
+/*}*/
+/*.ui-icon, .ui-widget-content .ui-icon{*/
+    /*background-image: url("../images/strelka2_03.png");*/
+    /*width: 27px;*/
+    /*height: 16px;*/
+    /*background-position: top left;*/
+    /*float: right;*/
+    /*margin-top: 0;*/
+    /*transform: rotate(270deg);*/
+/*}*/
+/*.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{*/
+     /*background-color: #fce7f2;*/
+ /*}*/
+/*.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {*/
+    /*background-color: #fef5fa;*/
+/*}*/
+/*.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon{*/
+    /*background-image: url("../images/strelka2_03.png");*/
+/*}*/
+/*.ui-accordion-content-active{*/
+    /*background-color: #fef5fa;*/
+/*}*/
+/*.ui-accordion-content-active{*/
+    /*border: none;*/
+/*}*/
+/*.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {*/
+    /*color: #860da6;*/
+    /*font-weight: bold;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.ui-accordion .ui-widget .ui-helper-reset{*/
+    /*margin-bottom: 10px;*/
+/*}*/
+/*.ui-accordion-content .ui-corner-bottom .ui-helper-reset .ui-widget-content{*/
+    /*border: none;*/
+/*}*/
